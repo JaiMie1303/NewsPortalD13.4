@@ -1,0 +1,63 @@
+{% extends 'flatpages/default.html' %}
+{% load custom_filters %}
+{% load cache %}
+
+{% block title %}
+News List
+{% endblock title%}
+
+{% block content %}
+<h1> World News </h1>
+<hr>
+<h3>News amount: {{ posts|length }}</h3>
+<h3>{{ time_now|date:'M d Y' }}</h3>
+<hr>
+<table>
+    <tr>
+        <td><h5>Заголовок</h5></td>
+        <td><h5>Опубликовано</h5></td>
+        <td><h5>Содержимое</h5></td>
+        <td><h5>Категория</h5></td>
+    </tr>
+    {% cache 60 all_news %}
+    {% for post in posts %}
+    <tr>
+        <td><a class="nav-link" href="/news/{{ post.id }}">{{ post.title|censor|truncatechars:50 }}</a></td>
+        <td>{{ post.date_published }}</td>
+        <td>{{ post.content|censor|truncatechars:21 }}</td>
+        <td>
+            {% for p in post.categories.all %}
+            <a>{{ p }}</a>
+            {% endfor %}
+        </td>
+        <td>
+            {% if perms.news.post_delete %}
+            <a href="{% url 'post_delete' post.id %}">Удалить</a>
+            {% endif %}
+        </td>
+    </tr>
+    {% endfor %}
+    {% endcache %}
+
+</table>
+
+<!-- Pagination -->
+<div class="text-center mt-5">
+    {% if page_obj.has_previous %}
+    <a href="?page=1">1</a>
+    {% if page_obj.previous_page_number != 1 %}
+        ...
+        <a href="?page={{ page_obj.previous_page_number }}">{{ page_obj.previous_page_number }}</a>
+    {% endif %}
+    {% endif %}
+    {{ page_obj.number }}
+    {% if page_obj.has_next %}
+    <a href="?page={{ page_obj.next_page_number }}">{{ page_obj.next_page_number }}</a>
+    {% if page_obj.paginator.num_pages != page_obj.next_page_number %}
+        ...
+        <a href="?page={{ page_obj.paginator.num_pages }}">{{ page_obj.paginator.num_pages }}</a>
+    {% endif %}
+    {% endif %}
+</div>
+
+{% endblock content %}

@@ -1,0 +1,44 @@
+{% extends 'flatpages/default.html' %}
+{% load custom_filters %}
+
+{% block title %}
+News all
+{% endblock title %}
+{% block content %}
+<h1> Search news/articles </h1>
+<hr>
+<div class="text-center mt-5">
+<form action="" method="get">
+   {{ filterset.form.as_p }}
+    <input type="submit" value="Поиск" />
+</form>
+</div>
+{% if postsearch %}
+<table>
+    <tr>
+        <td><h5>Заголовок</h5></td>
+        <td><h5>Опубликовано</h5></td>
+        <td><h5>Содержимое</h5></td>
+        <td><h5>Категория</h5></td>
+    </tr>
+    {% for p in postsearch %}
+        <tr>
+        <td><a class="nav-link" href="/news/{{p.id}}">{{p.title|censor}}</a></td>
+        <td>{{p.date_published}}</td>
+        <td>{{p.content|censor|truncatechars:21}}</td>
+        <td>{% for c in p.post_category.all %}
+        <span>
+        <a{{c}}</a>
+        </span>
+        {% endfor %}
+         </td>
+        </tr>
+    {% endfor %}
+
+</table>
+
+{% else %}
+<h3>There are no news</h3>
+<div class="text-center mt-5">
+    {% endif %}
+    {% endblock content %}

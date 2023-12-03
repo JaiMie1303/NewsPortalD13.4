@@ -1,0 +1,67 @@
+ 2023-12-03 17:49:51,160 INFO autoreload Watching for file changes with StatReloader
+ 2023-12-03 17:57:31,893 INFO autoreload /Users/evgeniyasmirnova/PycharmProjects/Portal/NewsPortal/NewsPortal/settings.py changed, reloading.
+ 2023-12-03 17:57:40,788 INFO autoreload Watching for file changes with StatReloader
+ 2023-12-03 17:58:40,773 INFO autoreload /Users/evgeniyasmirnova/PycharmProjects/Portal/NewsPortal/NewsPortal/settings.py changed, reloading.
+ 2023-12-03 17:58:41,063 INFO autoreload Watching for file changes with StatReloader
+ 2023-12-03 17:59:00,689 INFO autoreload /Users/evgeniyasmirnova/PycharmProjects/Portal/NewsPortal/NewsPortal/settings.py changed, reloading.
+ 2023-12-03 17:59:00,907 INFO autoreload Watching for file changes with StatReloader
+ 2023-12-03 18:00:42,320 INFO autoreload /Users/evgeniyasmirnova/PycharmProjects/Portal/NewsPortal/NewsPortal/settings.py changed, reloading.
+ 2023-12-03 18:00:42,633 INFO autoreload Watching for file changes with StatReloader
+ 2023-12-03 18:00:48,944 INFO autoreload /Users/evgeniyasmirnova/PycharmProjects/Portal/NewsPortal/NewsPortal/settings.py changed, reloading.
+ 2023-12-03 18:00:49,163 INFO autoreload Watching for file changes with StatReloader
+ 2023-12-03 18:03:30,367 INFO autoreload /Users/evgeniyasmirnova/PycharmProjects/Portal/NewsPortal/news/forms.py changed, reloading.
+ 2023-12-03 18:03:30,645 INFO autoreload Watching for file changes with StatReloader
+ 2023-12-03 18:03:51,308 INFO autoreload /Users/evgeniyasmirnova/PycharmProjects/Portal/NewsPortal/news/forms.py changed, reloading.
+ 2023-12-03 18:03:51,562 INFO autoreload Watching for file changes with StatReloader
+ 2023-12-03 18:04:55,820 INFO autoreload /Users/evgeniyasmirnova/PycharmProjects/Portal/NewsPortal/NewsPortal/settings.py changed, reloading.
+ 2023-12-03 18:04:56,039 INFO autoreload Watching for file changes with StatReloader
+ 2023-12-03 18:05:17,707 INFO autoreload /Users/evgeniyasmirnova/PycharmProjects/Portal/NewsPortal/news/forms.py changed, reloading.
+ 2023-12-03 18:05:17,911 INFO autoreload Watching for file changes with StatReloader
+ 2023-12-03 18:06:00,082 INFO autoreload /Users/evgeniyasmirnova/PycharmProjects/Portal/NewsPortal/NewsPortal/settings.py changed, reloading.
+ 2023-12-03 18:06:00,303 INFO autoreload Watching for file changes with StatReloader
+ 2023-12-03 18:07:43,698 INFO autoreload /Users/evgeniyasmirnova/PycharmProjects/Portal/NewsPortal/news/forms.py changed, reloading.
+ 2023-12-03 18:07:43,980 INFO autoreload Watching for file changes with StatReloader
+ 2023-12-03 18:07:58,405 INFO autoreload /Users/evgeniyasmirnova/PycharmProjects/Portal/NewsPortal/news/forms.py changed, reloading.
+ 2023-12-03 18:07:58,621 INFO autoreload Watching for file changes with StatReloader
+ 2023-12-03 18:09:45,614 INFO autoreload /Users/evgeniyasmirnova/PycharmProjects/Portal/NewsPortal/news/forms.py changed, reloading.
+ 2023-12-03 18:09:45,923 INFO autoreload Watching for file changes with StatReloader
+ 2023-12-03 18:10:11,706 INFO autoreload /Users/evgeniyasmirnova/PycharmProjects/Portal/NewsPortal/news/forms.py changed, reloading.
+ 2023-12-03 18:10:11,935 INFO autoreload Watching for file changes with StatReloader
+ 2023-12-03 18:14:42,735 INFO autoreload /Users/evgeniyasmirnova/PycharmProjects/Portal/NewsPortal/news/forms.py changed, reloading.
+ 2023-12-03 18:14:43,000 INFO autoreload Watching for file changes with StatReloader
+ 2023-12-03 18:15:03,616 INFO autoreload /Users/evgeniyasmirnova/PycharmProjects/Portal/NewsPortal/news/forms.py changed, reloading.
+ 2023-12-03 18:15:03,838 INFO autoreload Watching for file changes with StatReloader
+ 2023-12-03 18:21:25,221 INFO autoreload /Users/evgeniyasmirnova/PycharmProjects/Portal/NewsPortal/NewsPortal/settings.py changed, reloading.
+ 2023-12-03 18:23:22,064 INFO autoreload Watching for file changes with StatReloader
+ 2023-12-03 18:23:29,380 INFO autoreload /Users/evgeniyasmirnova/PycharmProjects/Portal/NewsPortal/NewsPortal/settings.py changed, reloading.
+ 2023-12-03 18:23:29,603 INFO autoreload Watching for file changes with StatReloader
+ 2023-12-03 18:23:35,881 INFO autoreload /Users/evgeniyasmirnova/PycharmProjects/Portal/NewsPortal/NewsPortal/settings.py changed, reloading.
+ 2023-12-03 18:23:43,459 INFO autoreload Watching for file changes with StatReloader
+ 2023-12-03 18:25:02,882 INFO autoreload /Users/evgeniyasmirnova/PycharmProjects/Portal/NewsPortal/NewsPortal/settings.py changed, reloading.
+2023-12-03 18:25:39 - INFO - autoreload - Watching for file changes with StatReloader
+2023-12-03 18:25:39 - INFO - autoreload - Watching for file changes with StatReloader
+2023-12-03 18:26:17 - INFO - autoreload - /Users/evgeniyasmirnova/PycharmProjects/Portal/NewsPortal/NewsPortal/settings.py changed, reloading.
+2023-12-03 18:26:17 - INFO - autoreload - /Users/evgeniyasmirnova/PycharmProjects/Portal/NewsPortal/NewsPortal/settings.py changed, reloading.
+ 2023-12-03 18:46:07,767 INFO autoreload Watching for file changes with StatReloader
+ 2023-12-03 19:14:13,598 INFO autoreload /Users/evgeniyasmirnova/PycharmProjects/Portal/NewsPortal/news/forms.py changed, reloading.
+ 2023-12-03 19:14:13,908 INFO autoreload Watching for file changes with StatReloader
+ 2023-12-03 19:15:18,706 INFO autoreload /Users/evgeniyasmirnova/PycharmProjects/Portal/NewsPortal/news/forms.py changed, reloading.
+ 2023-12-03 19:15:19,005 INFO autoreload Watching for file changes with StatReloader
+ 2023-12-03 19:17:58,716 INFO autoreload /Users/evgeniyasmirnova/PycharmProjects/Portal/NewsPortal/NewsPortal/settings.py changed, reloading.
+ 2023-12-03 19:17:58,999 INFO autoreload Watching for file changes with StatReloader
+ 2023-12-03 19:18:45,449 INFO autoreload /Users/evgeniyasmirnova/PycharmProjects/Portal/NewsPortal/news/forms.py changed, reloading.
+ 2023-12-03 19:18:45,752 INFO autoreload Watching for file changes with StatReloader
+ 2023-12-03 19:19:04,344 INFO autoreload /Users/evgeniyasmirnova/PycharmProjects/Portal/NewsPortal/NewsPortal/settings.py changed, reloading.
+ 2023-12-03 19:19:04,580 INFO autoreload Watching for file changes with StatReloader
+ 2023-12-03 19:21:15,785 INFO autoreload /Users/evgeniyasmirnova/PycharmProjects/Portal/NewsPortal/NewsPortal/settings.py changed, reloading.
+ 2023-12-03 19:28:02,683 INFO autoreload Watching for file changes with StatReloader
+ 2023-12-03 19:30:43,343 INFO autoreload /Users/evgeniyasmirnova/PycharmProjects/Portal/NewsPortal/NewsPortal/settings.py changed, reloading.
+ 2023-12-03 19:30:43,549 INFO autoreload Watching for file changes with StatReloader
+ 2023-12-03 19:32:00,155 INFO autoreload /Users/evgeniyasmirnova/PycharmProjects/Portal/NewsPortal/news/forms.py changed, reloading.
+ 2023-12-03 19:32:00,371 INFO autoreload Watching for file changes with StatReloader
+ 2023-12-03 19:33:52,303 INFO autoreload /Users/evgeniyasmirnova/PycharmProjects/Portal/NewsPortal/news/forms.py changed, reloading.
+ 2023-12-03 19:34:00,818 INFO autoreload Watching for file changes with StatReloader
+ 2023-12-03 19:37:59,692 INFO autoreload /Users/evgeniyasmirnova/PycharmProjects/Portal/NewsPortal/NewsPortal/settings.py changed, reloading.
+ 2023-12-03 20:03:29,798 INFO autoreload Watching for file changes with StatReloader
+ 2023-12-03 20:05:53,401 INFO autoreload /Users/evgeniyasmirnova/PycharmProjects/Portal/NewsPortal/NewsPortal/settings.py changed, reloading.
+ 2023-12-03 20:05:53,673 INFO autoreload Watching for file changes with StatReloader

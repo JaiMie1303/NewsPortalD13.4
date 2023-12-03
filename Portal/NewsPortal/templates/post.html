@@ -1,0 +1,15 @@
+{% extends 'flatpages/default.html' %}
+{% load cache %}
+
+{% block title %}
+News
+{% endblock title %}
+
+{% block content %}
+{% cache 300 post post.pk %}
+    <p><h4>Новость № <span>{{ post.pk }}</span></h4></p>
+    <p><h5>{{ post.date_published|date:'jS. F. Y.' }}</h5></p>
+    <p><h4>{{ post.title }}</h4></p>
+    <p>{{ post.content }}</p>
+{% endcache %}
+{% endblock %}
